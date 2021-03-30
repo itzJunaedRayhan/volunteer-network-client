@@ -1,0 +1,27 @@
+.addEvent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.addEvent form{
+    margin: 30px 0;
+}
+.addEvent form input{
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.addEvent form input[type="submit"]{
+    border: 2px solid tomato;
+    background-color: tomato;
+}
+.addEvent form input[type="submit"]:hover{
+    background-color: transparent;
+}
