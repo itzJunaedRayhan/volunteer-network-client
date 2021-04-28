@@ -16,9 +16,7 @@ function App() {
             <Link to="/addEvents">Add Events</Link>
           </li>
         </ul>
-
         <hr />
-
         <Switch>
           <Route exact path="/">
             <Home/>

@@ -12,7 +12,7 @@ const AddEvents = () => {
         imgURL : imgURL
       };
 
-      const url = `http://localhost:5055/addEvent`
+      const url = `https://desolate-reef-29553.herokuapp.com/addEvent`
       fetch(url, {
         method: 'POST',
         headers: {
@@ -49,5 +49,4 @@ const AddEvents = () => {
         </div>
     );
 };
-
 export default AddEvents;
